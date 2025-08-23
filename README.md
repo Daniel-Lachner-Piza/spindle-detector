@@ -263,7 +263,7 @@ The performance results are primarily evaluated using **Cohen's kappa (κ)**, wh
 
 ## Development Environment
 MATLAB Version: 23.2.0.2859533 (R2023b) Update 10 <br>
-Operating System: Microsoft Windows 11 Home Version 10.0 <br>
+Operating System: Microsoft Windows 11 Home Version 10.0 (Build 26100) <br>
 Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode <br>
 ### Dependencies
 - MATLAB                                                Version 23.2        (R2023b)
