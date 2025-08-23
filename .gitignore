@@ -1,0 +1,128 @@
+# MATLAB specific files
+*.asv               # MATLAB autosave files
+*.m~                # MATLAB backup files
+*.mex*              # MEX files (compiled MATLAB functions)
+*.p                 # MATLAB p-code files
+*.mat               # MATLAB data files (comment out if you want to track specific .mat files)
+#*.fig               # MATLAB figure files (comment out if you want to track specific .fig files)
+*.slx               # Simulink model files
+*.mdl               # Simulink model files (older format)
+*.slxc              # Simulink cache files
+*.slxp              # Simulink project files
+*.autosave          # MATLAB autosave files
+*_sfun.mexw*        # S-function MEX files
+
+# MATLAB Code Generation
+codegen/
+slprj/              # Simulink project files
+sccprj/             # Simulink Code Coverage project files
+
+# MATLAB Compiler
+*.prj               # MATLAB Compiler project files (comment out if you want to track them)
+*.app               # MATLAB App files
+*.ctf               # Component Technology File
+
+# MATLAB Profiler
+profile_results/
+
+# MATLAB Reports
+report.html
+report.pdf
+
+# MATLAB temporary and cache files
+*.log               # Log files
+*.cache             # Cache files
+*.tmp               # Temporary files
+matlab_crash_dump.*
+
+# Output and generated images (uncomment if you don't want to track them)
+# *.png
+# *.jpg
+# *.jpeg
+# *.eps
+# *.pdf
+# *.tiff
+# *.bmp
+
+# Data directories (uncomment specific lines if you don't want to track them)
+# Scalp_Detections/
+# Scalp_Images/
+# Scalp_Rates/
+
+# Operating System specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+# Editor specific files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# MATLAB Live Scripts temporary files
+*.mlx~
+
+# MATLAB toolbox files
+*.mltbx             # MATLAB Toolbox files
+*.mlappinstall      # MATLAB App Installer files
+
+# Documentation
+docs/_build/
+docs/build/
+
+# Python (if using Python integration)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# R (if using R integration)
+.Rhistory
+.RData
+.Ruserdata
+
+# Jupyter Notebooks (if using MATLAB with Jupyter)
+.ipynb_checkpoints/
+
+# Large data files (add specific patterns for your project)
+*.h5                # HDF5 files
+*.hdf5              # HDF5 files
+*.nc                # NetCDF files
+
+# Node.js (if using web-based MATLAB components)
+node_modules/
+npm-debug.log*
+
+# Backup and temporary directories
+backup/
+temp/
+tmp/
+
+# Datafiles
+*.edf
+*.mat
+src/MOSSDET/
+*.xlsx
+*.asv
+pySleepSpindles/
+OutputFiles/
+#tests/
+
+# Temporary files
+src/MOSSDET_*

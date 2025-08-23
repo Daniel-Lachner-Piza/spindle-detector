@@ -1,0 +1,165 @@
+=== SPINDLE DETECTOR TEST SUITE ===
+Starting comprehensive testing...
+
+Running test_configuration...
+  5/5 tests passed
+
+Running test_utility_functions...
+-------------------------------------------------------------------------------------------
+FieldTrip is developed by members and collaborators of the Donders Institute for Brain,
+Cognition and Behaviour at Radboud University, Nijmegen, the Netherlands.
+
+                          --------------------------
+                        /                            \
+                     ------------------------------------
+                    /                                    \
+          -------------------------------------------------
+         /                            /\/\/\/\/\ 
+         ---------------------------------------------------
+                  |        F  i  e  l  d  T  r  i  p       |
+                  ------------------------------------------
+                   \                                      /
+                     ------------------------------------
+                          \            /
+                            ----------
+
+Please cite the FieldTrip reference paper when you have used FieldTrip in your study.
+Robert Oostenveld, Pascal Fries, Eric Maris, and Jan-Mathijs Schoffelen. FieldTrip: Open
+Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data.
+Computational Intelligence and Neuroscience, vol. 2011, Article ID 156869, 9 pages, 2011.
+doi:10.1155/2011/156869.
+-------------------------------------------------------------------------------------------
+  6/6 tests passed
+
+Running test_performance_metrics...
+  6/6 tests passed
+
+Running test_data_processing...
+  5/5 tests passed
+
+Running test_file_operations...
+  6/6 tests passed
+
+Running test_montage_functions...
+  6/6 tests passed
+
+Running test_integration...
+  6/6 tests passed
+
+=== TEST SUMMARY ===
+Total tests: 40
+Passed: 40
+Failed: 0
+Success rate: 100.0%
+
+Testing completed.
+=== SPINDLE DETECTOR TEST SUITE ===
+Starting comprehensive testing...
+
+Running test_configuration...
+  5/5 tests passed
+
+Running test_utility_functions...
+-------------------------------------------------------------------------------------------
+FieldTrip is developed by members and collaborators of the Donders Institute for Brain,
+Cognition and Behaviour at Radboud University, Nijmegen, the Netherlands.
+
+                          --------------------------
+                        /                            \
+                     ------------------------------------
+                    /                                    \
+          -------------------------------------------------
+         /                            /\/\/\/\/\ 
+         ---------------------------------------------------
+                  |        F  i  e  l  d  T  r  i  p       |
+                  ------------------------------------------
+                   \                                      /
+                     ------------------------------------
+                          \            /
+                            ----------
+
+Please cite the FieldTrip reference paper when you have used FieldTrip in your study.
+Robert Oostenveld, Pascal Fries, Eric Maris, and Jan-Mathijs Schoffelen. FieldTrip: Open
+Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data.
+Computational Intelligence and Neuroscience, vol. 2011, Article ID 156869, 9 pages, 2011.
+doi:10.1155/2011/156869.
+-------------------------------------------------------------------------------------------
+  6/6 tests passed
+
+Running test_performance_metrics...
+  6/6 tests passed
+
+Running test_data_processing...
+  5/5 tests passed
+
+Running test_file_operations...
+  6/6 tests passed
+
+Running test_montage_functions...
+  6/6 tests passed
+
+Running test_integration...
+  6/6 tests passed
+
+=== TEST SUMMARY ===
+Total tests: 40
+Passed: 40
+Failed: 0
+Success rate: 100.0%
+
+Testing completed.
+=== SPINDLE DETECTOR TEST SUITE ===
+Starting comprehensive testing...
+
+Running test_configuration...
+  5/5 tests passed
+
+Running test_utility_functions...
+-------------------------------------------------------------------------------------------
+FieldTrip is developed by members and collaborators of the Donders Institute for Brain,
+Cognition and Behaviour at Radboud University, Nijmegen, the Netherlands.
+
+                          --------------------------
+                        /                            \
+                     ------------------------------------
+                    /                                    \
+          -------------------------------------------------
+         /                            /\/\/\/\/\ 
+         ---------------------------------------------------
+                  |        F  i  e  l  d  T  r  i  p       |
+                  ------------------------------------------
+                   \                                      /
+                     ------------------------------------
+                          \            /
+                            ----------
+
+Please cite the FieldTrip reference paper when you have used FieldTrip in your study.
+Robert Oostenveld, Pascal Fries, Eric Maris, and Jan-Mathijs Schoffelen. FieldTrip: Open
+Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data.
+Computational Intelligence and Neuroscience, vol. 2011, Article ID 156869, 9 pages, 2011.
+doi:10.1155/2011/156869.
+-------------------------------------------------------------------------------------------
+  6/6 tests passed
+
+Running test_performance_metrics...
+  6/6 tests passed
+
+Running test_data_processing...
+  5/5 tests passed
+
+Running test_file_operations...
+  6/6 tests passed
+
+Running test_montage_functions...
+  6/6 tests passed
+
+Running test_integration...
+  6/6 tests passed
+
+=== TEST SUMMARY ===
+Total tests: 40
+Passed: 40
+Failed: 0
+Success rate: 100.0%
+
+Testing completed.
