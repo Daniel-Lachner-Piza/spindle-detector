@@ -1,25 +1,11 @@
-clc; clear all; close all;
-disp(mfilename('fullpath'))
-addpath(genpath('src'));
-
-cfg = startup_cfg();
-fieldtrip_init(cfg);
-
-cfg.eegDataPathRoot =  "C:\Users\HFO\Documents\Postdoc_Calgary\Research\Tatsuya\PhysioEEGs\Non_Anonymized\";
-
-OPTIMIZED_POWER_TH = 26.5;
-OPTIMIZED_EXTENT_TH = 4;
-OPTIM_TRAIN_KAPPA = 0.493;
-OPTIM_TEST_KAPPA=0.501;
+function post_process_detections(cfg, eeg_datapath_root, eeg_data_subfolders, OPTIMIZED_POWER_TH, OPTIMIZED_EXTENT_TH)
 
 fprintf('best_auto_events_bppow_th:       %.3f\n', OPTIMIZED_POWER_TH);
 fprintf('best_auto_events_prop_th:       %.3f\n', OPTIMIZED_EXTENT_TH);
-fprintf('Train Avg Kappa:       %.3f\n', OPTIM_TRAIN_KAPPA);
-fprintf('Test Avg Kappa:       %.3f\n', OPTIM_TEST_KAPPA);
 
-for si = 1:size(cfg.all_eegDataPaths,1)
-    age_group = cfg.all_eegDataPaths{si};
-    eegDataPath = strcat(cfg.eegDataPathRoot, age_group);
+for si = 1:size(eeg_data_subfolders,1)
+    age_group = eeg_data_subfolders{si};
+    eegDataPath = strcat(eeg_datapath_root, age_group);
     filesList = dir(strcat(eegDataPath, '\**\*.edf'));
 
     fprintf('Processing age group: %s (%d subjects)\n', age_group, size(filesList,1));
@@ -66,4 +52,5 @@ for si = 1:size(cfg.all_eegDataPaths,1)
             fprintf('  ERROR processing %s: %s\n', subjName, ME.message);
         end
     end
+end
 end

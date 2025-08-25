@@ -4,7 +4,7 @@ disp(mfilename('fullpath'))
 cfg = startup_cfg();
 fieldtrip_init(cfg);
 
-force_recalc = true();
+force_recalc = false();
 prune_pow = false();
 ensure_prop = false();
 

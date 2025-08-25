@@ -9,7 +9,7 @@ fieldtrip_init(cfg);
 %run_visual_spindles_characterization;
 
 agreement_wdw_ms = 1;
-auto_events_bppow_th_ls = 0:0.25:30;
+auto_events_bppow_th_ls = 0:0.1:30;
 auto_events_prop_th_ls = 1:1:4;
 train_test_ratio = 0.6;
 
@@ -42,7 +42,14 @@ fprintf('best_auto_events_prop_th:       %.3f\n', best_auto_events_prop_th);
 fprintf('Train Avg Kappa:       %.3f\n', max_kappa);
 fprintf('Test Avg Kappa:       %.3f\n', test_avg_kappa);
 
-OPTIMIZED_POWER_TH = 26.5;
-OPTIMIZED_EXTENT_TH = 4;
-OPTIM_TRAIN_KAPPA = 0.493;
-OPTIM_TEST_KAPPA=0.501;
+% OPTIMIZED_POWER_TH = 26.5;
+% OPTIMIZED_EXTENT_TH = 4;
+% OPTIM_TRAIN_KAPPA = 0.493;
+% OPTIM_TEST_KAPPA=0.501;
+OPTIMIZED_POWER_TH = best_auto_events_bppow_th;
+OPTIMIZED_EXTENT_TH = best_auto_events_prop_th;
+
+
+eeg_datapath_root =  "C:\Users\HFO\Documents\Postdoc_Calgary\Research\Tatsuya\PhysioEEGs\Non_Anonymized\";
+eeg_data_subfolders = cfg.all_eegDataPaths;
+post_process_detections(cfg, eeg_datapath_root, eeg_data_subfolders, OPTIMIZED_POWER_TH, OPTIMIZED_EXTENT_TH)
