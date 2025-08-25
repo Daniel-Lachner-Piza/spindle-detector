@@ -42,9 +42,9 @@ fprintf('best_auto_events_prop_th:       %.3f\n', best_auto_events_prop_th);
 fprintf('Train Avg Kappa:       %.3f\n', max_kappa);
 fprintf('Test Avg Kappa:       %.3f\n', test_avg_kappa);
 
-% OPTIMIZED_POWER_TH = 26.5;
+% OPTIMIZED_POWER_TH = 26.9;
 % OPTIMIZED_EXTENT_TH = 4;
-% OPTIM_TRAIN_KAPPA = 0.493;
+% OPTIM_TRAIN_KAPPA = 0.5;
 % OPTIM_TEST_KAPPA=0.501;
 OPTIMIZED_POWER_TH = best_auto_events_bppow_th;
 OPTIMIZED_EXTENT_TH = best_auto_events_prop_th;
